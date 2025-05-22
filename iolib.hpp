@@ -4,10 +4,16 @@
 
 using namespace std;
 
+/*
+Function for string output only and new line.
+*/
 void println(string str = "") {
 	cout << str << endl;
 }
 
+/*
+Parametrized version of print function.
+*/
 template <typename T>
 void print(T str) {
 	cout << str;

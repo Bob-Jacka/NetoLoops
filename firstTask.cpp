@@ -15,4 +15,5 @@ int main()
 	}
 	print("Сумма: ");
 	print(summator);
+	println();
 }
